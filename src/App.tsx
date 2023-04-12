@@ -1,17 +1,7 @@
-import { useCallback, useState } from "react"
+import { Home } from "./pages/Home"
 
-export function App() {
-
-  const [count, setCount] = useState(0) 
-
+export function App(){
   return(
-    
-    <>
-    <button onClick={() => setCount(count + 1)}>Contar + 1</button>
-    <h1>{count}</h1>
-    </>
-
-    )
-  
+   <Home />
+  )
 }
-
